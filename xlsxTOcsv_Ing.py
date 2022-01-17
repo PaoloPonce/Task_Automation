@@ -2,7 +2,7 @@
 """
 Created on Fri Dec  4 11:17:50 2020
 
-@author: dsantos
+@author: ppa16, dsantos
 """
 import os
 from xlsx2csv import Xlsx2csv
