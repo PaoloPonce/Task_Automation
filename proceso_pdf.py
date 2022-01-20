@@ -15,7 +15,7 @@ import pandas as pd
 import re
 
 # ruta
-os.chdir("D:\\MTC_OGPPOE\\Tareas\\Automatizacion_Josue")
+os.chdir("D:\\MTC_OGPPOE\\Tareas\\Automatizacion_J")
 os.listdir()
 
 # url
@@ -69,10 +69,3 @@ convert_dict = {'ponderacion':float,
 data = data.astype(convert_dict)
 
 data.to_excel(file+'.xlsx',index=False)
-
-# almacen
-#data['ponderacion'] = data['ponderacion'].str.replace(",",".")
-#data['mar (20-21)'] = data['mar (20-21)'].str.replace(",",".")
-#data['ene-mar (20-21)'] = data['ene-mar (20-21)'].str.replace(",",".")
-#data['Abr 20-Mar 21/Marzo Enero-Marzo Abr 19-Mar 20'] = data['Abr 20-Mar 21/Marzo Enero-Marzo Abr 19-Mar 20'].str.replace(",",".")
-
